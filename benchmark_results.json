@@ -1,0 +1,368 @@
+{
+  "mediapipe": [
+    {
+      "image": "fist1.jpeg",
+      "expected": "fist",
+      "got": "fist",
+      "correct": true,
+      "time_ms": 1648.6,
+      "mem_kb": 228572
+    },
+    {
+      "image": "fist2.jpeg",
+      "expected": "fist",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1059.0,
+      "mem_kb": 248280
+    },
+    {
+      "image": "fist3.jpeg",
+      "expected": "fist",
+      "got": "fist",
+      "correct": true,
+      "time_ms": 1104.7,
+      "mem_kb": 234988
+    },
+    {
+      "image": "palm1.jpeg",
+      "expected": "open_palm",
+      "got": "open_palm",
+      "correct": true,
+      "time_ms": 1251.7,
+      "mem_kb": 229744
+    },
+    {
+      "image": "palm2.jpeg",
+      "expected": "open_palm",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1051.3,
+      "mem_kb": 245896
+    },
+    {
+      "image": "palm3.jpeg",
+      "expected": "open_palm",
+      "got": "open_palm",
+      "correct": true,
+      "time_ms": 1013.1,
+      "mem_kb": 229788
+    },
+    {
+      "image": "peace1.jpeg",
+      "expected": "peace",
+      "got": "peace",
+      "correct": true,
+      "time_ms": 1264.3,
+      "mem_kb": 237040
+    },
+    {
+      "image": "peace2.jpeg",
+      "expected": "peace",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1135.4,
+      "mem_kb": 246512
+    },
+    {
+      "image": "peace3.jpeg",
+      "expected": "peace",
+      "got": "peace",
+      "correct": true,
+      "time_ms": 1436.5,
+      "mem_kb": 401880
+    },
+    {
+      "image": "point1.jpeg",
+      "expected": "pointing",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 961.2,
+      "mem_kb": 247076
+    },
+    {
+      "image": "point2.jpeg",
+      "expected": "pointing",
+      "got": "unknown",
+      "correct": false,
+      "time_ms": 1065.7,
+      "mem_kb": 229852
+    },
+    {
+      "image": "point3.jpeg",
+      "expected": "pointing",
+      "got": "pointing",
+      "correct": true,
+      "time_ms": 1324.2,
+      "mem_kb": 298472
+    },
+    {
+      "image": "thumbs_up1.jpeg",
+      "expected": "thumbs_up",
+      "got": "thumbs_up",
+      "correct": true,
+      "time_ms": 1128.8,
+      "mem_kb": 239076
+    },
+    {
+      "image": "thumbs_up2.jpeg",
+      "expected": "thumbs_up",
+      "got": "unknown",
+      "correct": false,
+      "time_ms": 1085.9,
+      "mem_kb": 230932
+    },
+    {
+      "image": "thumbs_up3.jpeg",
+      "expected": "thumbs_up",
+      "got": "unknown",
+      "correct": false,
+      "time_ms": 1032.2,
+      "mem_kb": 233248
+    }
+  ],
+  "tflite": [
+    {
+      "image": "fist1.jpeg",
+      "expected": "fist",
+      "got": "fist",
+      "correct": true,
+      "time_ms": 1071.3,
+      "mem_kb": 231428
+    },
+    {
+      "image": "fist2.jpeg",
+      "expected": "fist",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 985.6,
+      "mem_kb": 246048
+    },
+    {
+      "image": "fist3.jpeg",
+      "expected": "fist",
+      "got": "thumbs_up",
+      "correct": false,
+      "time_ms": 985.2,
+      "mem_kb": 238048
+    },
+    {
+      "image": "palm1.jpeg",
+      "expected": "open_palm",
+      "got": "open_palm",
+      "correct": true,
+      "time_ms": 1256.8,
+      "mem_kb": 231216
+    },
+    {
+      "image": "palm2.jpeg",
+      "expected": "open_palm",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 961.6,
+      "mem_kb": 249088
+    },
+    {
+      "image": "palm3.jpeg",
+      "expected": "open_palm",
+      "got": "open_palm",
+      "correct": true,
+      "time_ms": 962.7,
+      "mem_kb": 231440
+    },
+    {
+      "image": "peace1.jpeg",
+      "expected": "peace",
+      "got": "peace",
+      "correct": true,
+      "time_ms": 1156.5,
+      "mem_kb": 243092
+    },
+    {
+      "image": "peace2.jpeg",
+      "expected": "peace",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1146.8,
+      "mem_kb": 248264
+    },
+    {
+      "image": "peace3.jpeg",
+      "expected": "peace",
+      "got": "peace",
+      "correct": true,
+      "time_ms": 1395.6,
+      "mem_kb": 399544
+    },
+    {
+      "image": "point1.jpeg",
+      "expected": "pointing",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 992.9,
+      "mem_kb": 249844
+    },
+    {
+      "image": "point2.jpeg",
+      "expected": "pointing",
+      "got": "unknown",
+      "correct": false,
+      "time_ms": 897.4,
+      "mem_kb": 231400
+    },
+    {
+      "image": "point3.jpeg",
+      "expected": "pointing",
+      "got": "pointing",
+      "correct": true,
+      "time_ms": 1363.8,
+      "mem_kb": 298908
+    },
+    {
+      "image": "thumbs_up1.jpeg",
+      "expected": "thumbs_up",
+      "got": "thumbs_up",
+      "correct": true,
+      "time_ms": 1065.9,
+      "mem_kb": 243840
+    },
+    {
+      "image": "thumbs_up2.jpeg",
+      "expected": "thumbs_up",
+      "got": "thumbs_up",
+      "correct": true,
+      "time_ms": 1107.8,
+      "mem_kb": 232648
+    },
+    {
+      "image": "thumbs_up3.jpeg",
+      "expected": "thumbs_up",
+      "got": "thumbs_up",
+      "correct": true,
+      "time_ms": 1078.9,
+      "mem_kb": 234872
+    }
+  ],
+  "roboflow": [
+    {
+      "image": "fist1.jpeg",
+      "expected": "fist",
+      "got": "fist",
+      "correct": true,
+      "time_ms": 6639.4,
+      "mem_kb": 152524
+    },
+    {
+      "image": "fist2.jpeg",
+      "expected": "fist",
+      "got": "open_palm",
+      "correct": false,
+      "time_ms": 2004.3,
+      "mem_kb": 153796
+    },
+    {
+      "image": "fist3.jpeg",
+      "expected": "fist",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 2467.6,
+      "mem_kb": 155076
+    },
+    {
+      "image": "palm1.jpeg",
+      "expected": "open_palm",
+      "got": "open_palm",
+      "correct": true,
+      "time_ms": 1802.3,
+      "mem_kb": 153488
+    },
+    {
+      "image": "palm2.jpeg",
+      "expected": "open_palm",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1785.1,
+      "mem_kb": 153648
+    },
+    {
+      "image": "palm3.jpeg",
+      "expected": "open_palm",
+      "got": "open_palm",
+      "correct": true,
+      "time_ms": 2098.3,
+      "mem_kb": 153492
+    },
+    {
+      "image": "peace1.jpeg",
+      "expected": "peace",
+      "got": "open_palm",
+      "correct": false,
+      "time_ms": 2405.7,
+      "mem_kb": 154632
+    },
+    {
+      "image": "peace2.jpeg",
+      "expected": "peace",
+      "got": "unknown",
+      "correct": false,
+      "time_ms": 1895.6,
+      "mem_kb": 153772
+    },
+    {
+      "image": "peace3.jpeg",
+      "expected": "peace",
+      "got": "peace",
+      "correct": true,
+      "time_ms": 2532.0,
+      "mem_kb": 157440
+    },
+    {
+      "image": "point1.jpeg",
+      "expected": "pointing",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1851.5,
+      "mem_kb": 153468
+    },
+    {
+      "image": "point2.jpeg",
+      "expected": "pointing",
+      "got": "thumbs_up",
+      "correct": false,
+      "time_ms": 1917.3,
+      "mem_kb": 153568
+    },
+    {
+      "image": "point3.jpeg",
+      "expected": "pointing",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 3292.5,
+      "mem_kb": 172260
+    },
+    {
+      "image": "thumbs_up1.jpeg",
+      "expected": "thumbs_up",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1777.7,
+      "mem_kb": 153996
+    },
+    {
+      "image": "thumbs_up2.jpeg",
+      "expected": "thumbs_up",
+      "got": "no_hand",
+      "correct": false,
+      "time_ms": 1962.6,
+      "mem_kb": 154488
+    },
+    {
+      "image": "thumbs_up3.jpeg",
+      "expected": "thumbs_up",
+      "got": "thumbs_up",
+      "correct": true,
+      "time_ms": 2298.8,
+      "mem_kb": 154492
+    }
+  ]
+}
